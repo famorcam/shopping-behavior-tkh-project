@@ -1,3 +1,4 @@
+![Alt text](image-2.png)
 # Shopping-Behavior
 
 ## Project Overview
