@@ -78,24 +78,12 @@ from scipy import stats
 df = pd.read_csv('../data/processed/shopping_cleaned.csv')
 ```
 #### Build pivot tables to uncover insights
+
 ```python
 color_by_season_table = pd.pivot_table(df, values='Location', index='Color', columns='Season', aggfunc=len)
 ```
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
